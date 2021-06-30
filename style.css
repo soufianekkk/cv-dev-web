@@ -5,8 +5,6 @@ body {
     
 }
 
-
-/* reset */
 * { 
     margin: 0;
     text-decoration:0;
@@ -28,35 +26,36 @@ table {
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
-    border-color: black;
+    border: solid 1px black;
 
 }
+table th  {
+    border: 1px solid ;
+}
+table td {
+    border: 1px solid ;
+} 
+
 .bandeau {
     /* width: 897px; */
     height: 5px;
     background-color: black;
     margin: 60px;
     text-align: center;
-    
-
-}  
-
-
+} 
 
 ul{
     left: 50%;
-    
-
 }
+
 header{
     height: 330px;
     width: 100%;
     background-image: url(image0\ \(1\).jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    
-
 }
+
 .logo {
     display: flex;
     justify-content: space-between;
@@ -64,6 +63,21 @@ header{
     width: 50%;
     margin-top: 15px;
 }
+#image1{
+    height: 70px;
+    width: 70px;
+
+}
+
+#image2{
+    height: 70px;
+    width: 70px;
+
+}
+/* .tableau {
+border: 1px solid black;
+} */
+
 @media screen and (min-width:1280px) {
     body {
 
@@ -72,13 +86,13 @@ header{
         height: 100%;
         margin: auto;
         border: 1px solid ;
-        /* border-right: 1px solid ; */
-        
         
     }
+
     html{
         background-color: white;
     }
+
     header{
         height: 400px;
         width: 100%;
@@ -87,8 +101,6 @@ header{
         background-repeat: no-repeat;
         text-align: center;
         
-        
-    
     }
 
 }
@@ -102,4 +114,8 @@ header{
     position: fixed;
     right: 30px;
     bottom: 30px;
+}
+.icone{
+    width: 35px;
+    height: 35px;
 }
