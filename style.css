@@ -78,6 +78,25 @@ header{
 border: 1px solid black;
 } */
 
+#conteneur  {
+    
+    text-align: center;
+    padding-top: 20px;
+
+}
+#conteneur img{
+    width: 400px;
+    height: 300px;
+}
+button{
+    background-color: black;
+    color: blanchedalmond;
+}
+.dark{
+    background-color: black;
+    color: white;
+    filter: invert(90%);
+}
 @media screen and (min-width:1280px) {
     body {
 
